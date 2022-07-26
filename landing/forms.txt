@@ -1,0 +1,163 @@
+<div class="col-lg-10 offset-lg-1" style="padding-top: 50px;">
+										        		<div class="form-group">
+										        			<h4 class="form-group">Application Form</h4>
+										        			<p>Please choose selected form <span>*</span></p>
+											        		<select class="form-control slct" id="select1" required>
+																		<option selected="selected" value="empty">Choose Application</option>
+																		<option value="id">Barangay ID Application</option>
+																		<option value="indigency">Indigency Application</option>
+																		<option value="clearance">Barangay Clearance Application</option>
+																		<option value="blotter">Blotter Application</option>
+																	</select>
+																</div>
+																<div class="empty box">
+														    	<img src="assets/images/empty.png" class="empty_img">
+														    	<p class="center">No application form select.</p>
+														    </div>
+																<div class="id box">
+																	<form>
+																	  <div class="form-group">
+																	    <label for="name">Name <span>*</span></label>
+																	    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="address">Address <span>*</span></label>
+																	    <input type="address" class="form-control" id="address" aria-describedby="address" placeholder="Complete address" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="dob">Date of Birth <span>*</span></label>
+																	    <input class="form-control" type="date" id="datepicker" name="dob" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="status">Civil Status <span>*</span></label>
+																	    <select class="form-control" name="status" required>
+																	    	<option selected="selected" value="none">Choose status</option>
+																	    	<option value="single">Single</option>
+																	    	<option value="married">Married</option>
+																	    	<option value="divorced">Divorced</option>
+																	    	<option value="widowed">Widowed</option>
+																	    </select>
+																	  </div>
+																	  <h5 class="underline">Incase of Emergency</h5>
+																	  <div class="form-group">
+																	    <label for="name2">Name <span>*</span></label>
+																	    <input type="name2" class="form-control" id="name2" aria-describedby="name2" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="relationship">Relationship <span>*</span></label>
+																	    <select class="form-control" name="relationship" required>
+																	    	<option selected="selected" value="none">Choose relationship</option>
+																	    	<option value="mother">Mother</option>
+																	    	<option value="father">Father</option>
+																	    	<option value="sister">Sister</option>
+																	    	<option value="brother">Brother</option>
+																	    	<option value="auntie">Auntie</option>
+																	    	<option value="uncle">Uncle</option>
+																	    	<option value="g-mother">Grand Mother</option>
+																	    	<option value="g-father">Grand Father</option>
+																	    </select>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="contact">Contact No. <span>*</span></label>
+																	    <input type="contact" class="form-control" id="contact" aria-describedby="contact" placeholder="Phone number" required>
+																	  </div>
+																	  <div class="form-group">
+																	  		<label for="attachment">Attatchment <span>*</span></label>
+																	  		<!-- Your preview will be put here -->
+																				<div>
+																				  <img src="no-image.jpg" id="preview" width=300 height=300 />
+																				</div>
+																	  		<script>
+																				  UPLOADCARE_PUBLIC_KEY = "afc8ba8b622ed74ac42f";
+																				</script>
+																				<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" charset="utf-8"></script>
+																				<!-- The input element below will turn into the widget -->
+																				<input type="hidden" role="uploadcare-uploader" data-crop="1:1" data-images-only >
+																	  </div>
+																	  <button type="submit" class="btn btn-primary">Submit</button>
+																	</form>
+																</div>
+														    <div class="indigency box">
+														    	<form>
+														    		<div class="form-group">
+																	    <label for="name">Name <span>*</span></label>
+																	    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="address">Address <span>*</span></label>
+																	    <input type="address" class="form-control" id="address" aria-describedby="address" placeholder="Complete address" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="dob">Date of Birth <span>*</span></label>
+																	    <input class="form-control" type="date" id="datepicker" name="dob" required>
+																	  </div>
+																		<div class="form-group">
+																	    <label for="purpose">Purpose <span>*</span></label>
+																	    <input type="purpose" class="form-control" id="purpose" aria-describedby="purpose" placeholder="" required>
+																		</div>
+																		<button type="submit" class="btn btn-primary">Submit</button>
+																	</form>
+														    </div>
+														    <div class="clearance box">
+														    	<form>
+														    		<div class="form-group">
+																	    <label for="name">Name <span>*</span></label>
+																	    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="address">Address <span>*</span></label>
+																	    <input type="address" class="form-control" id="address" aria-describedby="address" placeholder="Complete address" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="dob">Date of Birth <span>*</span></label>
+																	    <input class="form-control" type="date" id="datepicker" name="dob" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="dob">Place of Birth <span>*</span></label>
+																	    <input class="form-control" type="date" id="datepicker" name="dob" required>
+																	  </div>
+																		<div class="form-group">
+																	    <label for="purpose">Purpose <span>*</span></label>
+																	    <input type="purpose" class="form-control" id="purpose" aria-describedby="purpose" placeholder="" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="purpose">Remarks <span>*</span></label>
+																	    <input type="purpose" class="form-control" id="purpose" aria-describedby="purpose" placeholder="" required>
+																		</div>
+																		<button type="submit" class="btn btn-primary">Submit</button>
+																	</form>
+														    </div>
+														    <div class="blotter box">
+														    	<form>
+														    		<div class="form-group">
+																	    <label for="name">Complainant <span>*</span></label>
+																	    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="address">Complainant's Address <span>*</span></label>
+																	    <input type="address" class="form-control" id="address" aria-describedby="address" placeholder="Complete address" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="name">Dependant <span>*</span></label>
+																	    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Fullname" required>
+																	  </div>
+																	  <div class="form-group">
+																	    <label for="address">Dependant's Address <span>*</span></label>
+																	    <input type="address" class="form-control" id="address" aria-describedby="address" placeholder="Complete address" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="dob">Date and Time <span>*</span></label>
+																	    <input class="form-control" type="datetime-local" id="date_and_time1" name="date_and_time1" required>
+																	  </div>
+																		<div class="form-group">
+																	    <label for="purpose">Narrated By <span>*</span></label>
+																	    <input type="purpose" class="form-control" id="purpose" aria-describedby="purpose" placeholder="" required>
+																		</div>
+																		<div class="form-group">
+																	    <label for="purpose">Narrative <span>*</span></label>
+																	    <textarea id="ckeditor" name="narrative" required></textarea>
+																		</div>
+																		<button type="submit" class="btn btn-primary">Submit</button>
+																	</form>
+														    </div>
+									        </div>
