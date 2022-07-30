@@ -62,10 +62,12 @@ if(isset($_POST['btnContact'])) {
   </div>
 
 
-
+    <div class="alert alert-danger alert-server" role="alert" style="margin-bottom: 0px; text-align: center;">
+      <strong>Attention!</strong> This website is not functional; it is for show purposes only.
+    </div>  
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <header class="header-area header-sticky" style="top: 50px; position:absolute !important;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -393,6 +395,5 @@ if(isset($_POST['btnContact'])) {
     <script>
       jQuery('.modal').modal()
     </script>
-    
 </body>
 </html>
