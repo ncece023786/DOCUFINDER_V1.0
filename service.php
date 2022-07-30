@@ -149,7 +149,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sub-footer">
-                        <p>Copyright &copy; 2021</p>
+                        <p>This website is for school purpose.<br>
+                            <strong>DOCUFINDER (Thesis Capstone)</strong><br>
+                            A web responsive management and e-Blotter with <br>
+                            tracking system using QR code solution for Barangay 168 Deparo.
+                        </p>
+                        <p>Copyright &copy; <?php echo date("Y"); ?></p>
                     </div>
                 </div>
             </div>
