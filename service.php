@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sub-footer">
-                        <p>This website is for school purpose.<br>
+                        <p>This website is for school purposes only.<br>
                             <strong>DOCUFINDER (Thesis Capstone)</strong><br>
                             A web responsive management and e-Blotter with <br>
                             tracking system using QR code solution for Barangay 168 Deparo.
