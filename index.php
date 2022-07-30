@@ -340,8 +340,8 @@ if(isset($_POST['btnContact'])) {
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <button type="submit" id="form-submit" name="btnContact" class="main-button">Send Message
-                                                Now</button>
+                                            <button id="form-submit" class="main-button">Send Message
+                                                Now</button> <!-- removing type="submit"name="button"  -->
                                         </fieldset>
                                     </div>
                                 </div>
