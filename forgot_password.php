@@ -64,6 +64,10 @@ if(isset($_POST['button_reset'])) {
 </head>
 
 <body>
+  <div class="alert alert-danger alert-server" role="alert" style="margin-bottom: 0px; text-align: center;">
+    <strong>Attention!</strong> This website is not functional; it is for show purposes only.
+  </div> 
+  
   <section class="h-100 gradient-form" style="background-color: #eee;">
     <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
