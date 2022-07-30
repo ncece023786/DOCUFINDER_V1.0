@@ -96,8 +96,7 @@ if(isset($_POST['button_reset'])) {
                     </div>
 
                     <div class="text-center pt-1 mb-5 pb-1">
-                      <button class="btn btn-danger btn-block fa-lg gradient-custom-2 mb-3" type="submit"
-                        name="button_reset" style="height: 50px; border: none;">Next</button>
+                      <button class="btn btn-danger btn-block fa-lg gradient-custom-2 mb-3" style="height: 50px; border: none;">Next</button> <!-- removing type="submit"name="button_reset"  -->
                     </div>
 
                  

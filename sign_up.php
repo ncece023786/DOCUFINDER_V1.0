@@ -92,7 +92,7 @@ if(isset($_POST['button_register'])) {
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-danger btn-block fa-lg gradient-custom-2 mb-3" type="submit" name="button_register" style="height: 50px; border: none;">Send Link</button>
+                    <button class="btn btn-danger btn-block fa-lg gradient-custom-2 mb-3" style="height: 50px; border: none;">Send Link</button> <!-- type="submit" name="button_register"  -->
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
